@@ -18,6 +18,12 @@
         <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
           <a data-toggle="collapse" data-target="#skeleton-navigation-navbar-collapse.in" href.bind="row.href">${row.title}</a>
         </li>
+         <li>
+          <a data-toggle="collapse" data-target="#skeleton-navigation-navbar-collapse.in" href="#/nav/a">Dynamic A</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" data-target="#skeleton-navigation-navbar-collapse.in" href="#/nav/b">Dynamic B</a>
+        </li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
